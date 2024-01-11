@@ -1,0 +1,12 @@
+.vtm-card {
+    text-align: center;
+    border: solid #cccccc;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #555555;
+    box-shadow: lightgray 4px 4px 20px;
+}
+
+.is_read {
+    background-color: lightgrey;
+}

@@ -1,0 +1,6 @@
+<div class="vtm-card" (click)="onChangeTab(tab.link, tab.title, tab.date)" [ngClass]="{ is_read: tab.read === true }" style="cursor: pointer;">
+    <h2>{{ tab.title }}</h2>
+    <p>{{ tab.date | date: 'd MMMM yyyy'}}</p>
+    <p>lu: {{ tab.read }}</p>
+</div>
+<br>
